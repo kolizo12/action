@@ -15,11 +15,11 @@ jobs:
                 ls -ltra
                 cat README.md 
             
-            - name: ASCII ARTWORK
-              run: cowsay -f dragon "Run for cover,I am a dragon....RWAR" >> dragon.txt
-              
-            # - name: List files
-            #   run: ls
+            # - name: ASCII ARTWORK
+            #   run: cowsay -f dragon "Run for cover,I am a dragon....RWAR" >> dragon.txt
 
-            # - name: Read File
-            #   run: cat README.md
+            - name: List files
+              run: ls
+
+            - name: Read File
+              run: cat README.md
